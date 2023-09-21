@@ -1,5 +1,7 @@
 #include <stdio.h>
 
-int main() {
+
+int main(int argc, char *argv[]) {
 	printf("æ»≥Á«œººø‰");
+	return 0;
 }
