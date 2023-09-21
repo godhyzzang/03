@@ -2,6 +2,6 @@
 
 
 int main(int argc, char *argv[]) {
-	printf("æ»≥Á«œººø‰");
+	printf("Hello");
 	return 0;
 }
