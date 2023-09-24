@@ -2,14 +2,14 @@
 
 
 int main(void) {
-	char c;
-	int i;
+	char ch;
 
-	printf("enter a letter (to be converted to a number) : ");
-	scanf_s("%c",&c);
+	printf("enter a letter : ");
+	scanf_s("%c",&ch); 
 
-	i = c - '0';
-	printf("The input number is %i\n" , i);
+	char next_ch = ch + 1;
+	printf("The next letter is %c\n" ,  next_ch);
+
 
 	return 0;
 }
